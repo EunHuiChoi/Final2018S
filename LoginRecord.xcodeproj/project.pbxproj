@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8E3F0420DFDD5E000FF6E2 /* RecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E3F0320DFDD5E000FF6E2 /* RecordData.swift */; };
+		CDBC2CBF20D512700089ADE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC2CBE20D512700089ADE8 /* AppDelegate.swift */; };
+		CDBC2CC420D512700089ADE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC2CC220D512700089ADE8 /* Main.storyboard */; };
+		CDBC2CC720D512700089ADE8 /* LoginRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDBC2CC520D512700089ADE8 /* LoginRecord.xcdatamodeld */; };
+		CDBC2CC920D512700089ADE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBC2CC820D512700089ADE8 /* Assets.xcassets */; };
+		CDBC2CCC20D512700089ADE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC2CCA20D512700089ADE8 /* LaunchScreen.storyboard */; };
+		CDBC2CD420D515B20089ADE8 /* MyLoginCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC2CD320D515B20089ADE8 /* MyLoginCreateViewController.swift */; };
+		CDBD612C20D9205500AD2ECA /* recordPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBD612A20D9205400AD2ECA /* recordPress.png */; };
+		CDBD612D20D9205500AD2ECA /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBD612B20D9205400AD2ECA /* stop.png */; };
+		CDBD613020D961EA00AD2ECA /* TempRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD612F20D961EA00AD2ECA /* TempRecordViewController.swift */; };
+		CDBD613420D9B3A900AD2ECA /* together.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDBD613320D9B3A900AD2ECA /* together.mp3 */; };
+		CDE7E3CA20D55CCA001C804E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3C920D55CCA001C804E /* LoginViewController.swift */; };
+		CDE7E3CC20D55E1C001C804E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3CB20D55E1C001C804E /* MainViewController.swift */; };
+		CDE7E3D420D5B536001C804E /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3D320D5B536001C804E /* ListTableViewController.swift */; };
+		CDE7E3D620D5C0E1001C804E /* FolderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3D520D5C0E1001C804E /* FolderData.swift */; };
+		CDE7E3D820D5F917001C804E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3D720D5F917001C804E /* RecordViewController.swift */; };
+		CDE7E3DA20D5F924001C804E /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7E3D920D5F924001C804E /* PlayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD8E3F0320DFDD5E000FF6E2 /* RecordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordData.swift; sourceTree = "<group>"; };
+		CDBC2CBB20D512700089ADE8 /* LoginRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBC2CBE20D512700089ADE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDBC2CC320D512700089ADE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDBC2CC620D512700089ADE8 /* LoginRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginRecord.xcdatamodel; sourceTree = "<group>"; };
+		CDBC2CC820D512700089ADE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBC2CCB20D512700089ADE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDBC2CCD20D512700089ADE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC2CD320D515B20089ADE8 /* MyLoginCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginCreateViewController.swift; sourceTree = "<group>"; };
+		CDBD612A20D9205400AD2ECA /* recordPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordPress.png; sourceTree = "<group>"; };
+		CDBD612B20D9205400AD2ECA /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		CDBD612F20D961EA00AD2ECA /* TempRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempRecordViewController.swift; sourceTree = "<group>"; };
+		CDBD613320D9B3A900AD2ECA /* together.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = together.mp3; sourceTree = "<group>"; };
+		CDE7E3C920D55CCA001C804E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDE7E3CB20D55E1C001C804E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CDE7E3D320D5B536001C804E /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CDE7E3D520D5C0E1001C804E /* FolderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderData.swift; sourceTree = "<group>"; };
+		CDE7E3D720D5F917001C804E /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		CDE7E3D920D5F924001C804E /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBC2CB820D512700089ADE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDBC2CB220D512700089ADE8 = {
+			isa = PBXGroup;
+			children = (
+				CDBC2CBD20D512700089ADE8 /* LoginRecord */,
+				CDBC2CBC20D512700089ADE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBC2CBC20D512700089ADE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC2CBB20D512700089ADE8 /* LoginRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBC2CBD20D512700089ADE8 /* LoginRecord */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD613320D9B3A900AD2ECA /* together.mp3 */,
+				CDBD612E20D9205F00AD2ECA /* Image */,
+				CDBC2CBE20D512700089ADE8 /* AppDelegate.swift */,
+				CDE7E3C920D55CCA001C804E /* LoginViewController.swift */,
+				CDBC2CD320D515B20089ADE8 /* MyLoginCreateViewController.swift */,
+				CDE7E3CB20D55E1C001C804E /* MainViewController.swift */,
+				CDE7E3D720D5F917001C804E /* RecordViewController.swift */,
+				CDE7E3D320D5B536001C804E /* ListTableViewController.swift */,
+				CDE7E3D920D5F924001C804E /* PlayViewController.swift */,
+				CDBD612F20D961EA00AD2ECA /* TempRecordViewController.swift */,
+				CDE7E3D520D5C0E1001C804E /* FolderData.swift */,
+				CD8E3F0320DFDD5E000FF6E2 /* RecordData.swift */,
+				CDBC2CC220D512700089ADE8 /* Main.storyboard */,
+				CDBC2CC820D512700089ADE8 /* Assets.xcassets */,
+				CDBC2CCA20D512700089ADE8 /* LaunchScreen.storyboard */,
+				CDBC2CCD20D512700089ADE8 /* Info.plist */,
+				CDBC2CC520D512700089ADE8 /* LoginRecord.xcdatamodeld */,
+			);
+			path = LoginRecord;
+			sourceTree = "<group>";
+		};
+		CDBD612E20D9205F00AD2ECA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD612B20D9205400AD2ECA /* stop.png */,
+				CDBD612A20D9205400AD2ECA /* recordPress.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBC2CBA20D512700089ADE8 /* LoginRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBC2CD020D512700089ADE8 /* Build configuration list for PBXNativeTarget "LoginRecord" */;
+			buildPhases = (
+				CDBC2CB720D512700089ADE8 /* Sources */,
+				CDBC2CB820D512700089ADE8 /* Frameworks */,
+				CDBC2CB920D512700089ADE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginRecord;
+			productName = LoginRecord;
+			productReference = CDBC2CBB20D512700089ADE8 /* LoginRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBC2CB320D512700089ADE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CDBC2CBA20D512700089ADE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDBC2CB620D512700089ADE8 /* Build configuration list for PBXProject "LoginRecord" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDBC2CB220D512700089ADE8;
+			productRefGroup = CDBC2CBC20D512700089ADE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBC2CBA20D512700089ADE8 /* LoginRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBC2CB920D512700089ADE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC2CCC20D512700089ADE8 /* LaunchScreen.storyboard in Resources */,
+				CDBD612D20D9205500AD2ECA /* stop.png in Resources */,
+				CDBD613420D9B3A900AD2ECA /* together.mp3 in Resources */,
+				CDBC2CC920D512700089ADE8 /* Assets.xcassets in Resources */,
+				CDBD612C20D9205500AD2ECA /* recordPress.png in Resources */,
+				CDBC2CC420D512700089ADE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBC2CB720D512700089ADE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE7E3D620D5C0E1001C804E /* FolderData.swift in Sources */,
+				CDE7E3DA20D5F924001C804E /* PlayViewController.swift in Sources */,
+				CDBC2CBF20D512700089ADE8 /* AppDelegate.swift in Sources */,
+				CDBD613020D961EA00AD2ECA /* TempRecordViewController.swift in Sources */,
+				CDBC2CD420D515B20089ADE8 /* MyLoginCreateViewController.swift in Sources */,
+				CDE7E3D820D5F917001C804E /* RecordViewController.swift in Sources */,
+				CDE7E3CA20D55CCA001C804E /* LoginViewController.swift in Sources */,
+				CD8E3F0420DFDD5E000FF6E2 /* RecordData.swift in Sources */,
+				CDE7E3D420D5B536001C804E /* ListTableViewController.swift in Sources */,
+				CDBC2CC720D512700089ADE8 /* LoginRecord.xcdatamodeld in Sources */,
+				CDE7E3CC20D55E1C001C804E /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDBC2CC220D512700089ADE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBC2CC320D512700089ADE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBC2CCA20D512700089ADE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBC2CCB20D512700089ADE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBC2CCE20D512700089ADE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDBC2CCF20D512700089ADE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBC2CD120D512700089ADE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.LoginRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDBC2CD220D512700089ADE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.LoginRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBC2CB620D512700089ADE8 /* Build configuration list for PBXProject "LoginRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC2CCE20D512700089ADE8 /* Debug */,
+				CDBC2CCF20D512700089ADE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBC2CD020D512700089ADE8 /* Build configuration list for PBXNativeTarget "LoginRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC2CD120D512700089ADE8 /* Debug */,
+				CDBC2CD220D512700089ADE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDBC2CC520D512700089ADE8 /* LoginRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDBC2CC620D512700089ADE8 /* LoginRecord.xcdatamodel */,
+			);
+			currentVersion = CDBC2CC620D512700089ADE8 /* LoginRecord.xcdatamodel */;
+			path = LoginRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDBC2CB320D512700089ADE8 /* Project object */;
+}
